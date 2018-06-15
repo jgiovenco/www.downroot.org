@@ -1,11 +1,16 @@
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  /*border: 1px solid black;*/
+}
+* img {
+  max-width: 100%;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
 }
 
-body {
-
+h2 {
+  font-family: 'Courier New', sans-serif;
 }
 
 /* - - - - - - - - - - - - Help Classes - - - - - - - */
@@ -14,6 +19,9 @@ body {
   text-align: right;
 }
 
+.center-align {
+  text-align: center;
+}
 /* - - - - - - - - - - - - Nav - - - - - - - */
 .navigation img{
   max-width: 30px;
@@ -21,11 +29,152 @@ body {
 
 .navigation a {
   color: black;
-  font-size: 2rem;
+  font-size: 1rem;
   text-decoration: none;
-  text-align: center;
 }
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.menu img {
+  min-width: 50px;
+}
+
+/* - - - - - - - - - - - - Header - - - - - - - */
 
 header {
   background-image: url(../img/header.jpg);
+  color: white;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  margin-top: 2%;
+
+}
+
+header h1 {
+  font-size: 5rem;
+  font-family: 'Courier New', sans-serif;
+  font-weight:lighter;
+}
+
+header hr {
+  border: none;
+  border-bottom: 3px solid white;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+header img {
+  max-width: 25px;
+  display: inline-block;
+  align-items: center;
+}
+/* - - - - - - - - - - - - - Why - - - - - - - - - - - */
+.why {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.why h2 {
+  color: #6CAA7B;
+  font-size: 2.5rem;
+}
+
+.why img {
+  max-height: 300px;
+  max-width: 300px;
+  display: block;
+  align-items: center;
+  border: 5px solid #6CAA7B;
+  border-radius: 50%;
+}
+
+/* - - - - - - - - - - - - Mission Statement - - - - - - - */
+.mission {
+  text-align: center;
+  background-color: #122021;
+  color: white;
+  padding: 8%;
+  font-size: 1.2rem;
+}
+
+.mission div {
+  border: 3px solid #1BA39C;
+}
+
+.mission h2 {
+  font-size: 2rem;
+}
+/* - - - - - - - - - - - - What We Do - - - - - - - */
+.wwd {
+  border: 2px solid white;
+}
+
+.wwd h2 {
+  font-size: 2rem;
+}
+.wwd1 {
+  background-color: #26A65B;
+  border: 2px solid white;
+  padding: 8%;
+}
+
+.wwd2 {
+  background-color: #1BBC9B;
+  border: 2px solid white;
+  padding: 8%;
+}
+
+.wwd3 {
+  background-color: #1BA39C;
+  border: 2px solid white;
+  padding: 8%;
+}
+
+.wwd4 {
+  text-align: center;
+  border: 2px solid white;
+  padding: 8%;
+}
+
+/* - - - - - - - - - - - - Shop - - - - - - - */
+.shop {
+  padding: 18%;
+  background-image: url(../img/shop.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.shop a {
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid black;
+  color: black;
+  padding: 2%;
+}
+
+.shop a:hover {
+  background-color: #122021;
+  color: #6CAA7B;
+}
+/* - - - - - - - - - - - - Blog - - - - - - - */
+.homeblog hr {
+  border: none;
+  border-bottom: 3px solid black;
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+/* - - - - - - - - - - - - - Footer - - - - - - - - - - */
+.footer {
+  color: white;
+}
+.f1 {
+  background-color: #6CAA7B;
+}
+.f2 {
+  background-color: #122021;
 }

@@ -9,131 +9,159 @@
 
   <!-- - - - - - - CSS - - - - - - -->
   <link rel="stylesheet" href="css/normalize.min.css">
-  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/gridlex.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
   <!-- Personal Stylesheets -->
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
   <!-- - - - - - - - - - - - - -Universal Menu - - - - - - - - - - - - - -  - -->
-  <menu class=navigation>
+  <menu class="navigation">
     <nav class="right-align">
       <a href="fb.me/downroot" ><img src="img/facebook-black.png"></a>
       <a href="www.instagram.com/dwnroot"> <img src="img/instagram-black.png"></a>
       <a href="www.pinterest.com/downroot" > <img src="img/pinterest-black.png"></a>
       <a href="www.twitter.com/downroot" > <img src="img/twitter-black.png"></a>
     </nav>
-    <nav>
-      <a href="/pledges" > pledges </a>
-      <a href="/initiatives"> initiatives </a>
-      <a href="/events" > events </a>
-      <a href="/home"><img src="img/arrowlogo.png"></a>
-      <a href="/about"> about </a>
-      <a href="/shop" > shop </a>
-      <a href="/blog" > blog </a>
+
+    <nav class="grid-center-middle menu">
+      <div class="col-2">
+      </div>
+      <div class="col-1">
+        <a href="/pledges" > pledges </a>
+      </div>
+      <div class="col-1">
+        <a href="/initiatives"> initiatives </a>
+      </div>
+      <div class="col-1">
+        <a href="/events" > events </a>
+      </div>
+      <div class="col-2">
+        <a href="/home"><img src="img/arrow-logo.png"></a>
+      </div>
+      <div class="col-1">
+        <a href="/about"> about </a>
+      </div>
+      <div class="col-1">
+        <a href="/shop" > shop </a>
+      </div>
+      <div class="col-1">
+        <a href="/blog" > blog </a>
+      </div>
+      <div class="col-2">
+      </div>
     </nav>
-  <menu>
+  </menu>
 
   <!-- - - - - - - - - - - - - - Header - - - - - - - - - - - - - -  - -->
   <header class="header">
-    <div class="grid-middle-center">
+    <div class="grid-center-align-middle">
+      <div class="col-8">
+        <h1> downroot </h1>
+        <h2> A 501C3 non-profit based in New York </h2>
+        <hr>
+        <h3> we reverse the environmental effects of business and demand corporate responsibility </h3>
+      </div>
       <div class="col-12">
-      <h1> downroot </h1>
-      <h2> a 501C3 non-profit based in New York </h2>
-      <hr>
-      <h3> we reverse the environmental effects of business and demand corporate responsibility </h3>
-    </div>
-    <div class="col-12">
-      <a href="#ourmission"> <img src="img/header-arrow.png"></a>
-    </div>
-  </div>
-</header>
-
-<!-- - - - - - - - - - - - - - Mission Statement - - - - - - - - - - - - - -  - -->
-<section>
-  <h2> OUR MISSION </h2>
-  <div class="grid">
-    <div class="col-8">
-      <div class="col-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      </div>
-      <div class="col-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      </div>
-      <div class="col-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <a href="#ourmission"> <img src="img/header-arrow.png"></a>
       </div>
     </div>
-  </div>
-</section>
-
-<!-- - - - - - - - - - - - - - What We Do - - - - - - - - - - - - - -  - -->
-<section class="grid">
-  <div class="col-2">
-    <img src="img/pledge.png">
-  </div>
-  <div class="col-2">
-    <img src="img/earth.png">
-  </div>
-  <div class="col-2">
-    <img src="img/event.png">
-  </div>
-  <div class="col-6">
-    <h2> What We Do </h2>
-    <p> downroot has three main strategies: the pledge, fundraising initiatives, and hands-on volunteering. </p>
-    <p> click an icon to learn more. </p>
-  </div>
-
-  <!-- - - - - - - - - - - - - - Shop - - - - - - - - - - - - - -  - -->
-<section>
-    <a href="/shop"> show me the goods </a>
-</section>
-
-  <!-- - - - - - - - - - - - - - Recent Blog Posts - - - - - - - - - - - - - -  - -->
-  <section>
-    <h3> Learn More </h3>
-    <hr>
-
-    <img src="https://picsum.photos/200/300/?random">
-    <h4> Blog Post Title </h4>
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+  </header>
+  <!-- - - - - - - - - - - - - - Why - - - - - - - - -->
+  <section class="grid-center-middle-align why">
+    <div class=col-12>
+      <h2> why downroot? </h2>
+      <p> because the nature of today's business shouldn't be at the expense of the nature of our planet.</p>
+    </div>
+    <div class="col-4">
+      <img src="img/air.jpg"
+      <p> Top firms cause nearly $2.2tn of environmental damage from air pollution. </p>
+    </div>
+    <div class="col-4">
+      <img src="img/plastic.jpg"
+      <p> Companies receive subsidies for fossil fuels which allow them to produce cheap plastic that ends up in our oceans. </p>
+    </div>
+    <div class="col-4">
+      <img src="img/deforestation.jpg"
+      <p> studies show that today's top companies currently have no commitment to fully protect forests. </p>
+    </div>
   </section>
+    <!-- - - - - - - - - - - - - - Mission Statement - - - - - - - - - - - - - -  - -->
+    <section class="grid-center-align=-middle mission">
+      <div class="col-8">
+        <h2> OUR MISSION </h2>
+        <h3> downroot aims to increase social responsibility of businesses through developing a societal measurment standard, raising awareness, and working together to reverse the harmful effects on the environment </h3>
+      </div>
+    </section>
 
-<!-- - - - - - - - - - - - - - Footer - - - - - - - - - - - - - -  - -->
-<footer class="footer">
-<section>
-  <div class="grid">
-    <div class="col-6">
-      <h3> Join the Movement </h3>
-      <p> Subscribe for news, updates, and volunteer opportunities! </p>
-    </div>
-    <div class="col-6">
-      <!-- INSERT MAILCHIMP FORM -->
-    </div>
-</section>
-  <div class="grid">
-    <div class="col-4">
-      <p> Tax ID #----------
-      <p> downroot is a 501(c)3 tax-exempt organization and your donation is tax-deductible within the guidelines of U.S. law. </p>
-      <a href="#donationlink"> Click here to donate to operating expenses. </a>
-    </div>
-    <div class="col-4">
-      <a href="/about#contact"> Contact </a>
-      <a href="/press"> Press </a>
-      <a href="/ambassador"> Ambassador Application </a>
-    </div>
-    <div class="col-4">
-      <p> Follow Us </p>
-      <a href="fb.me/downroot" ><img src="img/facebook-white.ico"></a>
-      <a href="www.instagram.com/dwnroot"> <img src="img/instagram-white.ico"></a>
-      <a href="www.pinterest.com/downroot" > <img src="img/pinterest-white.ico"></a>
-      <a href="www.twitter.com/downroot" > <img src="img/twitter-white.ico"></a>
-    </div>
-  </div>
-<section>
-</footer>
-  <!-- - - - - - -  - -  - -  Javascript - - - - -  - - - - - -  - - - -->
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
-</body>
-</html>
+    <!-- - - - - - - - - - - - - - What We Do - - - - - - - - - - - - - -  - -->
+    <section class="grid wwd">
+      <div class="col-2 wwd1">
+        <img src="img/pledge.png">
+      </div>
+      <div class="col-2 wwd2">
+        <img src="img/earth.png">
+      </div>
+      <div class="col-2 wwd3">
+        <img src="img/event.png">
+      </div>
+      <div class="col-6 wwd4">
+        <h2> What We Do </h2>
+        <p> downroot has three main strategies: the pledge, fundraising initiatives, and hands-on volunteering </p>
+        <p> Click an icon to learn more. </p>
+      </div>
+    </section>
+    <!-- - - - - - - - - - - - - - Shop - - - - - - - - - - - - - -  - -->
+    <section class="shop">
+      <a href="/shop"> show me the goods </a>
+    </section>
+
+    <!-- - - - - - - - - - - - - - Recent Blog Posts - - - - - - - - - - - - - -  - -->
+    <section class="homeblog">
+      <h3> Learn More </h3>
+      <hr>
+      <img src="https://picsum.photos/200/300/?random">
+      <h4> Blog Post Title </h4>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+    </section>
+
+    <!-- - - - - - - - - - - - - - Footer - - - - - - - - - - - - - -  - -->
+    <footer class="footer">
+      <section class="f1">
+        <div class="grid">
+          <div class="col-6">
+            <h3> Join the Movement </h3>
+            <p> Subscribe for news, updates, and volunteer opportunities! </p>
+          </div>
+          <div class="col-6">
+            <!-- INSERT MAILCHIMP FORM -->
+          </div>
+        </section>
+        <section class="f2">
+          <div class="grid">
+            <div class="col-4">
+              <p> Tax ID #----------
+                <p> downroot is a 501(c)3 tax-exempt organization and your donation is tax-deductible within the guidelines of U.S. law. </p>
+                <a href="#donationlink"> Click here to donate to our operating expenses. </a>
+              </div>
+              <div class="col-4">
+                <a href="/about#contact"> Contact </a>
+                <a href="/press"> Press </a>
+                <a href="/ambassador"> Ambassador Application </a>
+              </div>
+              <div class="col-4">
+                <p> Follow Us </p>
+                <a href="fb.me/downroot" ><img src="img/facebook-white.ico"></a>
+                <a href="www.instagram.com/dwnroot"> <img src="img/instagram-white.ico"></a>
+                <a href="www.pinterest.com/downroot" > <img src="img/pinterest-white.ico"></a>
+                <a href="www.twitter.com/downroot" > <img src="img/twitter-white.ico"></a>
+              </div>
+            </div>
+            <section>
+            </footer>
+            <!-- - - - - - -  - -  - -  Javascript - - - - -  - - - - - -  - - - -->
+            <script type="text/javascript" src="js/jquery.min.js"></script>
+            <script type="text/javascript" src="js/main.js"></script>
+          </body>
+          </html>
