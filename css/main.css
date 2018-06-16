@@ -113,16 +113,24 @@ h2 {
 }
 
 .hero h2 {
-  margin-bottom: 2rem;S
+  margin-bottom: 2rem;
 }
 
+/* - - - - - - - - - - - - Why  - - - - - - - */
+.why {
+  font-family: 'Courier New', sans-serif;
+  font-size: 1.8rem;
+  color: black;
+  padding: 2%;
+}
 /* - - - - - - - - - - - - Mission Statement - - - - - - - */
 .mission {
   text-align: center;
-  background-color: #4B5038;
+  background-color: #1A1A1A;
   color: white;
   padding: 8%;
   font-size: 1.2rem;
+  margin-top: 5px;
 }
 
 .mission div {
@@ -183,7 +191,7 @@ h2 {
 
 /* - - - - - - - - - - - - DONATE - - - - - - - */
 .donate {
-  padding: 18%;
+  min-height: 50vh;
   background-image: url(../img/donate.jpg);
   background-position: center;
   background-size: cover;
@@ -192,10 +200,10 @@ h2 {
 .donate a {
   text-align: center;
   text-decoration: none;
-  border: 2px solid black;
-  color: black;
-  padding: 5%;
-  font-size: 1.5rem;
+  border: 3px solid white;
+  color: white;
+  padding: 8%;
+  font-size: 2rem;
 }
 
 .donate a:hover {
@@ -290,6 +298,7 @@ h2 {
   background-position: center;
   background-size: cover;
   text-align: center;
+  font-size: 2rem;
 }
 
 .aboutpic {
