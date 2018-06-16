@@ -5,6 +5,9 @@
 * img {
   max-width: 100%;
 }
+title {
+  font-family: 'Courier New';
+}
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -49,6 +52,14 @@ h2 {
 .navigation img {
   max-width: 30px;
 }
+.donate-button {
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 10%;
+  padding: 5px;
+  margin-right: 4px;
+}
 
 .navigation a {
   color: black;
@@ -75,7 +86,7 @@ h2 {
 /* - - - - - - - - - - - - Hero - - - - - - - */
 
 .hero {
-  background-image: url(../img/background2.jpg);
+  background-image: url(../img/hero.jpg);
   opacity: 0.9;
   color: black;
   min-height: 85vh;
@@ -230,7 +241,7 @@ h2 {
 
 
 .f2 {
-  background-color: #4B5038;
+  background-color: #43423E;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -267,4 +278,16 @@ h2 {
 .scroller img {
   max-width: 25px;
   height: auto;
+}
+
+/* ABOUT PAGE */
+
+.banner {
+  background-image: url(../img/banner.jpg);
+  opacity: 0.9;
+  color: white;
+  min-height: 40vh;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
 }
