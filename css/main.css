@@ -291,3 +291,10 @@ h2 {
   background-size: cover;
   text-align: center;
 }
+
+.aboutpic {
+  background-image: url(../img/aboutpic.jpg);
+  min-height: 40vh;
+  background-position: center;
+  background-size: cover;
+}
