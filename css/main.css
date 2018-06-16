@@ -43,7 +43,10 @@ h2 {
   position: relative;
 }
 /* - - - - - - - - - - - - Header - - - - - - - */
-.navigation img{
+.navigation {
+  margin: 1%;
+}
+.navigation img {
   max-width: 30px;
 }
 
@@ -232,7 +235,10 @@ h2 {
   padding-right: 5%;
 }
 
-
+.f2 h3 {
+  font-family: 'Courier New', sans-serif;
+  font-weight: normal;
+}
 
 .f2 img{
   padding: 12px;
@@ -245,7 +251,7 @@ h2 {
   text-decoration: none;
 }
 
-.f2 a:hover: {
+.f2 a:hover {
   text-decoration:underline;
 }
 
