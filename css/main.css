@@ -6,11 +6,11 @@
   max-width: 100%;
 }
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
-  font-family: 'Courier New', sans-serif;
+  font-family: 'Catamaran', sans-serif;
 }
 
 /* - - - - - - - - - - - - Help Classes - - - - - - - */
@@ -22,7 +22,27 @@ h2 {
 .center-align {
   text-align: center;
 }
-/* - - - - - - - - - - - - Nav - - - - - - - */
+
+.left-align {
+  text-align: left;
+}
+
+.no-padding {
+  padding:0;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-fixed {
+  position:fixed;
+}
+
+.position-relative {
+  position: relative;
+}
+/* - - - - - - - - - - - - Header - - - - - - - */
 .navigation img{
   max-width: 30px;
 }
@@ -33,6 +53,14 @@ h2 {
   text-decoration: none;
 }
 
+.menu a {
+  padding: 0 1rem;
+}
+
+.menu a.no-padding {
+  padding:0;
+}
+
 .menu a:hover {
   text-decoration: underline;
 }
@@ -41,37 +69,30 @@ h2 {
   min-width: 50px;
 }
 
-/* - - - - - - - - - - - - Header - - - - - - - */
+/* - - - - - - - - - - - - Hero - - - - - - - */
 
-header {
+.hero {
   background-image: url(../img/header.jpg);
   color: white;
   min-height: 100vh;
   background-position: center;
   background-size: cover;
   text-align: center;
-  margin-top: 2%;
-
 }
 
-header h1 {
+.hero h1 {
   font-size: 5rem;
   font-family: 'Courier New', sans-serif;
   font-weight:lighter;
 }
 
-header hr {
+.hero hr {
   border: none;
   border-bottom: 3px solid white;
   width: 50%;
   margin-bottom: 20px;
 }
 
-header img {
-  max-width: 25px;
-  display: inline-block;
-  align-items: center;
-}
 /* - - - - - - - - - - - - - Why - - - - - - - - - - - */
 .why {
   font-size: 1.2rem;
@@ -111,33 +132,46 @@ header img {
 /* - - - - - - - - - - - - What We Do - - - - - - - */
 .wwd {
   border: 2px solid white;
+  min-height: 50vh;
 }
-
+.wwd img {
+  max-width: 40px;
+  height: auto;
+}
 .wwd h2 {
   font-size: 2rem;
 }
 .wwd1 {
   background-color: #26A65B;
   border: 2px solid white;
-  padding: 8%;
 }
 
 .wwd2 {
   background-color: #1BBC9B;
   border: 2px solid white;
-  padding: 8%;
 }
 
 .wwd3 {
   background-color: #1BA39C;
   border: 2px solid white;
-  padding: 8%;
 }
 
 .wwd4 {
   text-align: center;
   border: 2px solid white;
-  padding: 8%;
+}
+
+.wwd-item {
+  top: 0;
+  left: 0;
+  background-color: white;
+  opacity: 0;
+}
+
+.wwd-centerimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* - - - - - - - - - - - - Shop - - - - - - - */
@@ -153,12 +187,13 @@ header img {
   text-decoration: none;
   border: 2px solid black;
   color: black;
-  padding: 2%;
+  padding: 5%;
+  font-size: 1.5rem;
 }
 
 .shop a:hover {
   background-color: #122021;
-  color: #6CAA7B;
+  color: white;
 }
 /* - - - - - - - - - - - - Blog - - - - - - - */
 .homeblog hr {
@@ -177,4 +212,18 @@ header img {
 }
 .f2 {
   background-color: #122021;
+}
+
+/* - - - - - - - - - - fixed elements - - - - - - - - - - -*/
+.scroller {
+  position: fixed;
+  left: 0;
+  bottom: 1rem;
+  width: 100%;
+  z-index: 1;
+}
+
+.scroller img {
+  max-width: 25px;
+  height: auto;
 }

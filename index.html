@@ -10,14 +10,14 @@
   <!-- - - - - - - CSS - - - - - - -->
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/gridlex.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:800|Montserrat" rel="stylesheet">
 
   <!-- Personal Stylesheets -->
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
   <!-- - - - - - - - - - - - - -Universal Menu - - - - - - - - - - - - - -  - -->
-  <menu class="navigation">
+  <header class="navigation">
     <nav class="right-align">
       <a href="fb.me/downroot" ><img src="img/facebook-black.png"></a>
       <a href="www.instagram.com/dwnroot"> <img src="img/instagram-black.png"></a>
@@ -25,7 +25,7 @@
       <a href="www.twitter.com/downroot" > <img src="img/twitter-black.png"></a>
     </nav>
 
-    <nav class="grid-center-middle menu">
+    <!-- <nav class="grid-center-middle menu">
       <div class="col-2">
       </div>
       <div class="col-1">
@@ -51,25 +51,35 @@
       </div>
       <div class="col-2">
       </div>
-    </nav>
-  </menu>
+    </nav> -->
 
-  <!-- - - - - - - - - - - - - - Header - - - - - - - - - - - - - -  - -->
-  <header class="header">
-    <div class="grid-center-align-middle">
+    <nav class="grid-middle-noGutter-noBottom menu center-align">
+      <div class="col-5 right-align">
+        <a href="/pledges" > pledges </a>
+        <a href="/initiatives"> initiatives </a>
+        <a href="/events" > events </a>
+      </div>
+      <div class="col-2">
+        <a class="no-padding" href="/home"><img src="img/arrow-logo.png"></a>
+      </div>
+      <div class="col-5 left-align">
+        <a href="/about"> about </a>
+        <a href="/shop" > shop </a>
+        <a href="/blog" > blog </a>
+      </div>
+    </nav>
+</header>
+  <!-- - - - - - - - - - - - - - Hero - - - - - - - - - - - - - -  - -->
+  <section class="grid-center-middle hero">
       <div class="col-8">
         <h1> downroot </h1>
         <h2> A 501C3 non-profit based in New York </h2>
         <hr>
         <h3> we reverse the environmental effects of business and demand corporate responsibility </h3>
       </div>
-      <div class="col-12">
-        <a href="#ourmission"> <img src="img/header-arrow.png"></a>
-      </div>
-    </div>
-  </header>
+  </section>
   <!-- - - - - - - - - - - - - - Why - - - - - - - - -->
-  <section class="grid-center-middle-align why">
+  <!--<section class="grid-center-middle-align why">
     <div class=col-12>
       <h2> why downroot? </h2>
       <p> because the nature of today's business shouldn't be at the expense of the nature of our planet.</p>
@@ -86,7 +96,7 @@
       <img src="img/deforestation.jpg"
       <p> studies show that today's top companies currently have no commitment to fully protect forests. </p>
     </div>
-  </section>
+  </section>-->
     <!-- - - - - - - - - - - - - - Mission Statement - - - - - - - - - - - - - -  - -->
     <section class="grid-center-align=-middle mission">
       <div class="col-8">
@@ -96,25 +106,52 @@
     </section>
 
     <!-- - - - - - - - - - - - - - What We Do - - - - - - - - - - - - - -  - -->
-    <section class="grid wwd">
+    <section class="grid-noGutter-noBottom-equalHeight center-align wwd">
       <div class="col-2 wwd1">
-        <img src="img/pledge.png">
+        <div class="wwd-centerimg">
+          <img src="img/pledge.png">
+        </div>
       </div>
       <div class="col-2 wwd2">
-        <img src="img/earth.png">
+        <div class="wwd-centerimg">
+          <img src="img/earth.png">
+        </div>
       </div>
       <div class="col-2 wwd3">
-        <img src="img/event.png">
+        <div class="wwd-centerimg">
+          <img src="img/event.png">
+        </div>
       </div>
       <div class="col-6 wwd4">
-        <h2> What We Do </h2>
-        <p> downroot has three main strategies: the pledge, fundraising initiatives, and hands-on volunteering </p>
-        <p> Click an icon to learn more. </p>
+        <div class="wwd-wrapper position-relative">
+          <div>
+            <h2> What We Do </h2>
+            <p> downroot has three main strategies: the pledge, fundraising initiatives, and hands-on volunteering </p>
+            <p> Click an icon to learn more. </p>
+          </div>
+          <div class="position-absolute wwd-item">
+            <h2> one </h2>
+            <p> downroot has three main strategies: the pledge, fundraising initiatives, and hands-on volunteering </p>
+            <p> Click an icon to learn more. </p>
+          </div>
+          <div class="position-absolute wwd-item">
+            <h2> two </h2>
+            <p> downroot has three main strategies: the pledge, fundraising initiatives, and hands-on volunteering </p>
+            <p> Click an icon to learn more. </p>
+          </div>
+          <div class="position-absolute wwd-item">
+            <h2> three </h2>
+            <p> downroot has three main strategies: the pledge, fundraising initiatives, and hands-on volunteering </p>
+            <p> Click an icon to learn more. </p>
+          </div>
+      </div>
       </div>
     </section>
     <!-- - - - - - - - - - - - - - Shop - - - - - - - - - - - - - -  - -->
-    <section class="shop">
-      <a href="/shop"> show me the goods </a>
+    <section class="grid-center-align-middle shop">
+      <div>
+        <a href="/shop"> show me the goods </a>
+      </div>
     </section>
 
     <!-- - - - - - - - - - - - - - Recent Blog Posts - - - - - - - - - - - - - -  - -->
@@ -160,6 +197,11 @@
             </div>
             <section>
             </footer>
+            <!-- fixed element -->
+            <div class="scroller center-align">
+            <a href="#whydownroot"> <img src="img/header-arrow.png"></a>
+            </div>
+
             <!-- - - - - - -  - -  - -  Javascript - - - - -  - - - - - -  - - - -->
             <script type="text/javascript" src="js/jquery.min.js"></script>
             <script type="text/javascript" src="js/main.js"></script>
