@@ -59,10 +59,13 @@ h1 {
 
 .instagram a {
   text-decoration: none;
-  padding: 1rem;
+  padding: 0.3rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: black;
 }
 
 .instagram a img {
@@ -422,6 +425,19 @@ h1 {
   max-width: 50px;
 }
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Get Involved - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - event title - - - - - - - - - - - - - */
+
+.event-title h2 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.event-title p {
+  font-size: 1.5rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+/* - - - - - - - - - - - - - - - - event types - - - - - - - - - - - - - */
 .event-types {
   padding-right: 4%;
   padding-left:4%;
@@ -436,6 +452,9 @@ h1 {
   padding-right:2%;
   padding-left: 2%;
 }
+
+/* - - - - - - - - - - - - - - - - contact form - - - - - - - - - - - - - */
+
 .contactform-section {
   background-color: #1A1A1A;
   color: white;
@@ -469,7 +488,7 @@ h1 {
 .contactform-section-form textarea {
   width: 100%;
   display:block;
-  padding: 12px 8px;
+  padding: 15px 8px;
   margin-bottom: 1rem;
   border-radius: 5px;
   outline: none;
@@ -484,9 +503,13 @@ h1 {
   line-height: 0.2;
 }
 
+.event-type-form-text {
+  margin-top: 40px;
+}
+
 .contactform-section-form button {
   border-radius: 8px;
-  background-color: #1BA39C;
+  background-color: #C8EC69;
   color: white;
   width: 100%;
   padding: 3%;
@@ -495,9 +518,9 @@ h1 {
 }
 
 .contactform-section-form button:hover {
-  background-color: white;
-  color:#1BA39C;
-  border: 2px solid #1BA39C;
+  background-color: #43423E;
+  color: white;
+  border: none;
 }
 
 .contactform-section-form textarea {
