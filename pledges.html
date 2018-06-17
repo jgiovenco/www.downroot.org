@@ -50,7 +50,7 @@ layout: default
 
 <!-- - - - - - - - - - Pledge Archive - - - - - - - - - - - -->
 <section class="grid pledge-archive">
-  <div class="col-3">
+  <div class="col-3 pledge-archive-navigation">
     {% assign alphabet = site.pledges | group_by_exp:"pledge", "pledge.company_name | slice: 0, 1" %}
     {% for group in alphabet %}
       <a href="#letter-{{ group.name | downcase }}" data-letter="{{ group.name | downcase }}">{{ group.name }}</a>
