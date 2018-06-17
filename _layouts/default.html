@@ -11,6 +11,12 @@
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/gridlex.min.css">
   <link href="https://fonts.googleapis.com/css?family=Catamaran:800|Montserrat" rel="stylesheet">
+  <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
+  #mc_embed_signup{background:#C8EC69; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+  /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+  We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+  </style>
 
   <!-- Personal Stylesheets -->
   <link rel="stylesheet" href="css/main.css">
@@ -32,7 +38,7 @@
         <a href="/get-involved" > get involved </a>
       </div>
       <div class="col-2">
-        <a class="no-padding" href="/home"><img src="img/arrow-logo.png"></a>
+        <a class="no-padding" href="/index"><img src="img/arrow-logo.png"></a>
       </div>
       <div class="col-5 left-align">
         <a href="/movements"> movements </a>
@@ -47,25 +53,34 @@
   <!-- - - - - - - - - - - - - - Footer - - - - - - - - - - - - - -  - -->
   <footer class="footer">
     <section class="f1">
-      <div class="grid">
-        <div class="col-6">
+      <div class="grid-middle">
+        <div class="col-12 center-align">
           <h3> Join the Movement </h3>
           <p> Subscribe for news, updates, and volunteer opportunities! </p>
+          <div id="mc_embed_signup">
+            <form action="https://downroot.us18.list-manage.com/subscribe/post?u=df4d5b1633880be9fa7cfaaa6&amp;id=3ec1e29ee4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_df4d5b1633880be9fa7cfaaa6_3ec1e29ee4" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+              </div>
+            </form>
+          </div>
+          <!--End mc_embed_signup-->
         </div>
-        <div class="col-6">
-          <!-- INSERT MAILCHIMP FORM -->
-        </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="f2">
-        <div class="grid">
-          <div class="col-4">
-            <p> Tax ID #----------
-              <p> downroot is a 501(c)3 tax-exempt organization and your donation is tax-deductible within the guidelines of U.S. law. </p>
-              <a href="#donationlink"> Click here to donate to our operating expenses. </a>
-            </div>
-            <div class="grid-middle col-4 center-align">
-              <div class="col-12">
+    <section class="f2">
+      <div class="grid">
+        <div class="col-4">
+          <p> Tax ID #----------
+            <p> downroot is a 501(c)3 tax-exempt organization and your donation is tax-deductible within the guidelines of U.S. law. </p>
+            <a href="#donationlink"> Click here to donate to our operating expenses. </a>
+          </div>
+          <div class="grid-middle col-4 center-align">
+            <div class="col-12">
               <a href="/about#contact"> Contact </a>
             </div>
             <div class="col-12">
@@ -87,6 +102,7 @@
         </footer>
 
         {% if page.url == "/" %}
+
         <!-- fixed element -->
         <div class="scroller center-align">
           <a href="#whydownroot"> <img src="img/header-arrow.png"></a>

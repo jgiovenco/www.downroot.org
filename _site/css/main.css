@@ -251,19 +251,21 @@ h2 {
 }
 
 .f1 {
-  color: #122021;
+  background-color: #C8EC69;
+  color: black;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .f1 h3 {
-  font-family: 'Courier New', sans-serif;
+  font-weight: bold;
   font-size: 2rem;
-  margin: 10px;
-  font-weight: lighter;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .f1 p {
-  margin: 10px;
-
+  margin-top: 0;
 }
 
 
@@ -322,6 +324,8 @@ h2 {
 
 .story {
   padding: 100px;
+  padding-right: 2%;
+  padding-left: 2%;
 }
 
 .aboutpic {
@@ -364,7 +368,7 @@ h2 {
 
 .our-team {
   Color: white;
-  margin-top: 20px;
+  margin-top: 10%;
 }
 .ot1 {
   background-color: #26A65B;
@@ -387,15 +391,20 @@ h2 {
   color: black;
 }
 /* - - - - - - contact - - - - - -  */
-
-.contact hr {
+.contact {
+  padding-bottom: 3%;
+}
+.contact-title {
+  margin-top: 3%;
+}
+.contact-title hr {
   border: none;
   border-bottom: 3px solid black;
   width: 50px
 }
 
 .contact-icons {
-  margin-top: 10px;
+  margin-top: 5px;
   padding-right: 20%;
   padding-left: 20%
 }
