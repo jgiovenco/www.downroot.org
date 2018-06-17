@@ -24,29 +24,54 @@ layout: default
 </section>
 
 <!-- - - - - - - - - - pledge stat section - - - - - - - - - - - -->
-<section class="grid pledge-stat">
-  <div class="col-4 stat-square">
-    <p> # </p>
-    <p> pledges </p>
+<section class="grid pledge-stat center-align">
+  <div class="col-2">
+  </div>
+  <div class="grid-middle-center col-3 stat-square">
+    <div class="col-5 stat-wrapper1">
+      <p> # </p>
+      <p> pledges </p>
+    </div>
   </div>
 
-  <div class="col-4">
-    <!-- <img src="--"> -->
+  <div class="col-2 stats-pic">
+    <img src="/img/stats-pic.png">
   </div>
 
-  <div class="col-4 stat-square">
-    <p> # </p>
-    <p> countries </p>
+  <div class="grid-middle-center col-3 stat-square">
+    <div class="col-5 stat-wrapper2">
+      <p> # </p>
+      <p> countries </p>
+    </div>
+  </div>
+  <div class="col-2">
   </div>
 </section>
 
 <!-- - - - - - - - - - Pledge Archive - - - - - - - - - - - -->
 <section class="grid pledge-archive">
   <div class="col-3">
+    {% assign alphabet = site.pledges | group_by_exp:"pledge", "pledge.company_name | slice: 0, 1" %}
+    {% for group in alphabet %}
+      <a href="#letter-{{ group.name | downcase }}" data-letter="{{ group.name | downcase }}">{{ group.name }}</a>
+    {%endfor%}
   </div>
   <div class="col-9">
-    {% for item in site.pledges %}
-        {{item.title}}
-    {% endfor %}
+
+
+    {% for group in alphabet %}
+    <section class="letter-{{ group.name | downcase }}">
+      <h3 id="letter-{{ group.name | downcase }}">{{ group.name }}</h3>
+      <div class="grid">
+        {% for pledge in group.items %}
+          <div class="col-12">
+            {{ pledge.company_name }}
+            <br />
+            {{ pledge.description }}
+          </div>
+        {%endfor%}
+      </div>
+    </section>
+    {%endfor%}
   </div>
 </section>

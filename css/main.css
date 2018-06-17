@@ -425,6 +425,21 @@ h1 {
 .contact-icons img{
   max-width: 50px;
 }
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - pledges - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* - - - - - - - - - - pledge stat - - - - - - - - -- */
+
+.stat-wrapper1 {
+  border: 1px solid black;
+}
+
+.stat-wrapper2 {
+  border: 1px solid black;
+}
+
+.stats-pic img{
+  max-width: 300px;
+}
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Get Involved - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* - - - - - - - - - - - - - - - - event title - - - - - - - - - - - - - */
 
