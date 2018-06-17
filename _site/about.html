@@ -1,12 +1,57 @@
----
-layout: default
-title: about us
----
-<!-- - - - - - - - - - - - - -Universal Menu pulled in from default - - - - - - - - - - - - - -  - -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <title> downroot </title>
+
+  <!-- META -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+
+  <!-- - - - - - - CSS - - - - - - -->
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/gridlex.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:800|Montserrat" rel="stylesheet">
+
+  <!-- Personal Stylesheets -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- - - - - - - - - - - - - -Universal Menu - - - - - - - - - - - - - -  - -->
+  <header class="navigation">
+    <nav class="right-align">
+      <a href="fb.me/downroot" ><img src="img/facebook-black.png"></a>
+      <a href="www.instagram.com/dwnroot"> <img src="img/instagram-black.png"></a>
+      <a href="www.pinterest.com/downroot" > <img src="img/pinterest-black.png"></a>
+      <a href="www.twitter.com/downroot" > <img src="img/twitter-black.png"></a>
+    </nav>
+
+    <nav class="grid-middle-noGutter-noBottom menu center-align">
+      <div class="col-5 right-align">
+        <a href="/about" > about </a>
+        <a href="/pledges"> pledges </a>
+        <a href="/get-involved" > get involved </a>
+      </div>
+      <div class="col-2">
+        <a class="no-padding" href="/home"><img src="img/arrow-logo.png"></a>
+      </div>
+      <div class="col-5 left-align">
+        <a href="/movements"> movements </a>
+        <a href="/shop" > shop </a>
+        <a href="/blog" > blog </a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- - - - - - - - - - - - - -Universal Menu pulled in from default - - - - - - - - - - - - - -  - -->
 
 <!-- - - - - - - - - - - - - - Banner - - - - - - - - - - - - - -  - -->
 
-{% include banner.html %}
+<section class="grid-center-middle banner">
+  <div class="col-8 hero-text">
+    <h1> about us </h1>
+  </div>
+</section>
+
 
 <!-- - - - - - - - - - - - - - Our Story - - - - - - - - - - - - - -  - -->
 <section class="grid-noBottom-noGutter story">
@@ -110,3 +155,55 @@ title: about us
 </section>
 
 <!-- - - - - - - - - - - - - - Footer pulled in from default layout- - - - - - - - - - - - - -  - -->
+
+
+  <!-- - - - - - - - - - - - - - Footer - - - - - - - - - - - - - -  - -->
+  <footer class="footer">
+    <section class="f1">
+      <div class="grid">
+        <div class="col-6">
+          <h3> Join the Movement </h3>
+          <p> Subscribe for news, updates, and volunteer opportunities! </p>
+        </div>
+        <div class="col-6">
+          <!-- INSERT MAILCHIMP FORM -->
+        </div>
+      </section>
+
+      <section class="f2">
+        <div class="grid">
+          <div class="col-4">
+            <p> Tax ID #----------
+              <p> downroot is a 501(c)3 tax-exempt organization and your donation is tax-deductible within the guidelines of U.S. law. </p>
+              <a href="#donationlink"> Click here to donate to our operating expenses. </a>
+            </div>
+            <div class="grid-middle col-4 center-align">
+              <div class="col-12">
+              <a href="/about#contact"> Contact </a>
+            </div>
+            <div class="col-12">
+              <a href="/press"> Press </a>
+            </div>
+            <div class="col-12">
+              <a href="/ambassador"> Ambassador Application </a>
+            </div>
+          </div>
+          <div class="col-4 center-align">
+            <h3> downroot </h3>
+            <a href="fb.me/downroot" ><img src="img/facebook-white.ico"></a>
+            <a href="www.instagram.com/dwnroot"> <img src="img/instagram-white.ico"></a>
+            <a href="www.pinterest.com/downroot" > <img src="img/pinterest-white.ico"></a>
+            <a href="www.twitter.com/downroot" > <img src="img/twitter-white.ico"></a>
+          </div>
+        </div>
+        <section>
+        </footer>
+
+        
+        <!-- - - - - - -  - -  - -  Javascript - - - - -  - - - - - -  - - - -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+
+        <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"df4d5b1633880be9fa7cfaaa6","lid":"3ec1e29ee4"}) })</script>
+      </body>
+      </html>
