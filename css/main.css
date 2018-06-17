@@ -394,6 +394,12 @@ h2 {
   width: 50px
 }
 
-.contact-3 img{
+.contact-icons {
+  margin-top: 10px;
+  padding-right: 20%;
+  padding-left: 20%
+}
+
+.contact-icons img{
   max-width: 50px;
 }
