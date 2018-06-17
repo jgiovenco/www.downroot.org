@@ -426,6 +426,31 @@ h1 {
   max-width: 50px;
 }
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - pledges - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - pledge  - - - - - - - */
+
+.pledge-text {
+  padding: 2%;
+  background-color: #326A57;
+  color: white;
+}
+
+.pledge-text h2 {
+  color: black;
+  margin-bottom: 0;
+}
+
+.pledge-text span {
+  font-family: 'Courier New', sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+.pledge-text hr {
+  border: none;
+  border-bottom: 3px solid black;
+  width: 50%;
+  margin-bottom: 20px;
+}
 
 /* - - - - - - - - - - pledge stat - - - - - - - - -- */
 
@@ -437,9 +462,14 @@ h1 {
   border: 1px solid black;
 }
 
-.stats-pic img{
-  max-width: 300px;
+.
+
+.stats-pic {
+  background-image: url(/img/root-logo.png);
+  background-position: center;
+  background-size: cover;
 }
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Get Involved - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* - - - - - - - - - - - - - - - - event title - - - - - - - - - - - - - */
 
