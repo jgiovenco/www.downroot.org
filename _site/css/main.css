@@ -325,7 +325,6 @@ h2 {
 }
 
 .aboutpic {
-  /* background-image: url(../img/aboutpic.jpg); */
   min-height: 40vh;
   background-position: center;
   background-size: cover;
@@ -337,21 +336,28 @@ h2 {
 
 .aboutpic div {
   width: 100%;
-  bottom: -25px;
+  bottom: -20px;
 }
 
 .aboutpic a {
   padding: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
   color: white;
-  background-color: black;
+  background-color: #C8EC69;
   text-decoration: none;
   display: inline-block;
+  border: 2px solid white;
 }
 
+.aboutpic a:hover {
+  background-color: black;
+  color: white;
+}
 
 .story {
   text-align: center;
-  padding: 3%;
+  padding: 5%;
 }
 
 /* - - - - - - - -  our team - - - - - - -*/
