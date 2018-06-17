@@ -16,6 +16,11 @@ h2 {
   font-family: 'Catamaran', sans-serif;
 }
 
+h1 {
+  font-family: 'courier new', sans-serif;
+  font-weight: lighter;
+}
+
 /* - - - - - - - - - - - - Help Classes - - - - - - - */
 
 .right-align {
@@ -115,7 +120,7 @@ h2 {
 }
 
 .hero-text {
-  padding-bottom: 23vh;
+  /* padding-bottom: 23vh; */
 }
 .hero h1 {
   font-size: 5rem;
@@ -315,7 +320,7 @@ h2 {
   background-image: url(../img/banner.jpg);
   opacity: 0.9;
   color: white;
-  min-height: 40vh;
+  min-height: 45vh;
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -411,4 +416,28 @@ h2 {
 
 .contact-icons img{
   max-width: 50px;
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Get Involved - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.event-types {
+  padding: 5%;
+}
+.contact-form {
+  background-color: #1A1A1A;
+  color: white;
+  padding: 8%;
+}
+
+.contact-form h3 {
+  color: #C8EC69;
+  font-size: 1.8rem;
+  line-height: 0.2;
+}
+
+.contact-form span {
+  color: pink;
+}
+
+.contact-form input {
+  padding: 4%;
+  
 }

@@ -3,9 +3,52 @@ layout: default
 title: get involved
 ---
 {% include banner.html %}
- <section class=event-types>
- </section>
- <
+<!-- - - - - - - - - - - - - - - - -  Event Title - - - - - - - - - - - - -->
+<section class="event-title center-align">
+  <h2> Does your business need help with it's CSR? </h2>
+  <p> leave it to downroot </p>
+</section>
+
+<!-- - - - - - - - - - - - - - - - -  Event Types - - - - - - - - - - - - -->
+<section class="grid event-types center-align">
+  <div class="col-4">
+    <h3> Hands-On </h3>
+    <img src="img/hands-on.jpg">
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+  </div>
+  <div class="col-4">
+    <h3> Fundraising </h3>
+    <img src="img/--">
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+  </div>
+  <div class="col-4">
+    <h3> CSR Crashcourse </h3>
+    <img src="img/crash-course.jpg">
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+  </div>
+</section>
+
+<!-- - - - - - - - - - - - - - - - -  Contact Form - - - - - - - - - - - - -->
+<section class="grid contact-form">
+  <div class="col-6">
+    <h3> Let's Make a Difference. </h3>
+    <h3><span> Together. <span></h3>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+    </div>
+    <div class="col-6">
+      <form class="event-form" method="POST" action="https://formspree.io/janelle@downroot.com">
+        <input type="email" name="email" placeholder="your email">
+        <input type="text" name="company" placeholder="company name">
+        <p> event type: </p>
+        <input type="radio" name="event" value="hands-on" checked> Hands-On Activity<br>
+        <input type="radio" name="event" value="fundraiser"> Fundraiser <br>
+        <input type="radio" name="event" value="CSR"> CSR CrashCourse <br>
+        <input type="radio" name="event" value="other"> I have another idea (please describe below)
+        <textarea name="message" placeholder="tell us about your goals, ideas, and more!"></textarea>
+        <button type="submit">submit</button>
+      </form>
+    </div>
+  </section>
 
 
 
@@ -14,4 +57,5 @@ title: get involved
 
 
 
-{% include instagram.html %}
+
+  {% include instagram.html %}
