@@ -69,7 +69,7 @@
   </div>
   <div class="col-4">
     <h3> Fundraising </h3>
-    <img src="img/--">
+    <img src="img/fundraising.jpg">
     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
   </div>
   <div class="col-4">
@@ -80,26 +80,56 @@
 </section>
 
 <!-- - - - - - - - - - - - - - - - -  Contact Form - - - - - - - - - - - - -->
-<section class="grid contact-form">
-  <div class="col-6">
+<section class="grid contactform-section">
+  <div class="col-6 contactform-section-text">
     <h3> Let's Make a Difference. </h3>
     <h3><span> Together. <span></h3>
-      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-    </div>
-    <div class="col-6">
-      <form class="event-form" method="POST" action="https://formspree.io/janelle@downroot.com">
-        <input type="email" name="email" placeholder="your email">
-        <input type="text" name="company" placeholder="company name">
-        <p> event type: </p>
-        <input type="radio" name="event" value="hands-on" checked> Hands-On Activity<br>
-        <input type="radio" name="event" value="fundraiser"> Fundraiser <br>
-        <input type="radio" name="event" value="CSR"> CSR CrashCourse <br>
-        <input type="radio" name="event" value="other"> I have another idea (please describe below)
-        <textarea name="message" placeholder="tell us about your goals, ideas, and more!"></textarea>
-        <button type="submit">submit</button>
-      </form>
-    </div>
-  </section>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+  </div>
+
+  <div class="col-6 contactform-section-form">
+    <form method="POST" action="https://formspree.io/janelle@downroot.com">
+      <input type="email" name="email" placeholder="your email">
+      <input type="text" name="company" placeholder="company name">
+      <p> Event Type: </p>
+      <div class="grid-middle-noBottom center-align contactform-section-form-buttons">
+        <div class="col-6">
+          <div class="contactform-section-form-button active" data-event="hands-on">
+            <img src="img/tick.svg">
+            <p>Hands-On Activity</p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="contactform-section-form-button" data-event="fundraiser">
+            <img src="img/tick.svg">
+            <p>Fundraiser</p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="contactform-section-form-button" data-event="CSR">
+            <img src="img/tick.svg">
+            <p>CSR CrashCourse</p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="contactform-section-form-button" data-event="other">
+            <img src="img/tick.svg">
+            <p>Other (please describe below)</p>
+          </div>
+        </div>
+      </div>
+      <textarea name="message" placeholder="tell us about your goals, ideas, and more!"></textarea>
+      <button type="submit">SUBMIT</button>
+
+      <div class="contactform-section-form-radiobuttons">
+        <input type="radio" name="event" value="hands-on" checked>
+        <input type="radio" name="event" value="fundraiser">
+        <input type="radio" name="event" value="CSR">
+        <input type="radio" name="event" value="other">
+      </div>
+    </form>
+  </div>
+</section>
 
 
 
@@ -111,14 +141,17 @@
 
   <section class="grid-center-middle center-align instagram">
   <div class="col-12">
-    <div class="col-6">
-      <a href="/donate(hidden)"> <img src="img/instagram-white.ico"> follow us on instagram </a>
+    <div class="instagram-btn">
+      <a href="www.instagram.com/dwnroot">
+        <img src="img/insta-icon.png"> <p>follow us on instagram</p>
+      </a>
     </div>
   </div>
-  <div class="col-12"
-  <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/72c1ffb662b55137bd7dfbf4a4bc8392.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
-</div>
 
+  <div class="col-12">
+    <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+    <iframe src="//lightwidget.com/widgets/72c1ffb662b55137bd7dfbf4a4bc8392.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+  </div>
 </section>
 
 
