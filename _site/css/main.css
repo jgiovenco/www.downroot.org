@@ -130,6 +130,10 @@ h1 {
   text-align: center;
 }
 
+.hero-text {
+  margin-bottom: 10%;
+}
+
 .hero h1 {
   font-size: 5rem;
   font-family: 'Courier New', sans-serif;
@@ -232,14 +236,14 @@ h1 {
 .donate a {
   text-align: center;
   text-decoration: none;
-  border: 3px solid white;
-  color: white;
+  border: 3px solid black;
   padding: 8%;
   font-size: 2rem;
+  color: black;
 }
 
 .donate a:hover {
-  background-color: #122021;
+  background-color: black;
   color: white;
 }
 /* - - - - - - - - - - - - Blog - - - - - - - */
@@ -326,7 +330,6 @@ h1 {
 
 .banner {
   background-image: url(../img/banner.jpg);
-  opacity: 0.9;
   color: white;
   min-height: 45vh;
   background-position: center;
