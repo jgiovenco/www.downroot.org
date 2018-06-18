@@ -212,6 +212,10 @@ h1 {
   border: 2px solid white;
 }
 
+.wwd-static span{
+  font-weight: bold;
+}
+
 .wwd-item {
   top: 0;
   left: 0;
@@ -228,6 +232,18 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.wwd-item a {
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.wwd-item a:hover {
+  color: white;
+  background-color: black;
 }
 
 /* - - - - - - - - - - - - DONATE - - - - - - - */
@@ -401,30 +417,124 @@ h1 {
 
 /* - - - - - - - -  our team - - - - - - -*/
 
-.our-team {
-  Color: white;
-  margin-top: 10%;
-}
-.ot1 {
-  background-color: #26A65B;
-  border: 2px solid white;
+.our-team-text {
+  background-color: #245C38;
+  padding: 3%;
+  color: white;
 }
 
-.ot2 {
-  background-color: #1BBC9B;
-  border: 2px solid white;
+.our-team-text h2{
+  font-size: 2.2rem;
+  margin-bottom: 0;
+  margin-left: 10px;
 }
 
-.ot3 {
-  background-color: #1BA39C;
-  border: 2px solid white;
+.our-team-text hr {
+  border: none;
+  border-bottom: 3px solid white;
+  width: 20%;
+  margin-bottom: 20px;
 }
 
-.ot4 {
-  text-align: center;
-  border: 2px solid white;
-  color: black;
+.our-team-squares {
+  padding: 200px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border: 5px solid white;
 }
+
+.our-team-squares hr {
+  border: none;
+  border-bottom: 2px solid black;
+  width: 20%;
+  margin: 0;
+}
+
+.our-team-squares img {
+  max-width: 25px;
+}
+
+.about-rectangle {
+  border: 5px solid white;
+}
+
+.janelle-pic {
+  background-image: url(/img/janelle-pic.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+.janelle-pic:hover {
+  filter: grayscale(0)
+}
+
+.alexander-pic {
+  background-image: url(/img/alexander-pic.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+.alexander-pic:hover {
+  filter: grayscale(0)
+}
+
+.yoshi-pic {
+  background-image: url(/img/yoshi-pic.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+.yoshi-pic:hover {
+  filter: grayscale(0)
+}
+
+.karen-pic {
+  background-image: url(/img/karen-pic.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+.karen-pic:hover {
+  filter: grayscale(0)
+}
+
+.random-pic {
+  background-image: url(/img/random-pic.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+.random-pic:hover {
+  filter: grayscale(0)
+}
+
+.random-pic2 {
+  background-image: url(/img/random-pic2.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+.random-pic2:hover {
+  filter: grayscale(0)
+}
+
+.about-rectangle img {
+  filter: grayscale(100%);
+}
+
+.about-rectangle img:hover {
+  filter: grayscale(0%)
+}
+.about-text {
+
+}
+
 /* - - - - - - contact - - - - - -  */
 .contact {
   padding-bottom: 3%;

@@ -45,14 +45,17 @@ function scrollToLetter(event) {
 
 }
 
+//add function that shows the absolute elements
 function showChapter(event){
 
+//assigns the target as the data id's (pledge, event, fundraise)
   var target = $(event.currentTarget),
       chapter = target.attr('data-id');
 
-
+// removes current selection
   $('.wwd-item').removeClass('active');
 
+//selects the new icon
     $('.wwd-item[data-id="'+chapter+'"]').addClass('active');
       console.log(chapter);
 
