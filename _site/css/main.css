@@ -303,7 +303,6 @@ h1 {
 }
 
 .f1 {
-  background-color: #C8EC69;
   color: black;
   padding-left: 10%;
   padding-right: 10%;
@@ -322,7 +321,7 @@ h1 {
 
 
 .f2 {
-  background-color: #43423E;
+  background-color: #326A57;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -612,25 +611,17 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* - - - - - - - - - - pledge stat - - - - - - - - -- */
-.pledge-stat {
-  margin-top:4%;
-}
-.stat-wrapper1 {
-  border: 1px solid black;
-}
-
-.stat-wrapper2 {
-  border: 1px solid black;
-}
-
-.
-
-.stats-pic {
-  background-image: url(../img/root-logo.png);
+/* - - - - - - - - - - pledge map - - - - - - - - -- */
+.pledge-map {
+  background-image: url(/img/map.png);
   background-position: center;
   background-size: cover;
-  max-width: 50px;
+  font-size: 3rem;
+  min-height: 50vh;
+}
+
+.pledge-map span {
+  color: #326A57;
 }
 
 /* - - - - - - - - - - pledge archive navigation - - - - - - - - -- */
