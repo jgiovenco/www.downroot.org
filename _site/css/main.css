@@ -36,6 +36,10 @@ h1 {
   text-align: left;
 }
 
+section {
+    padding: 2% 5%;
+}
+
 .no-padding {
   padding:0;
 }
@@ -203,7 +207,7 @@ h1 {
 /* - - - - - - - - - - - - What We Do - - - - - - - */
 .wwd {
   border: 2px solid white;
-  min-height: 50vh;
+  min-height: 35vh;
 }
 .wwd img {
   max-width: 40px;
@@ -231,9 +235,10 @@ h1 {
   cursor: pointer;
 }
 
-.wwd4 {
+#wwd .wwd4 {
   text-align: center;
   border: 2px solid white;
+  padding: 5%;
 }
 
 .wwd-static span{
@@ -394,9 +399,7 @@ h1 {
 }
 
 .story {
-  padding: 100px;
-  padding-right: 2%;
-  padding-left: 2%;
+  padding: 2%;
 }
 
 .aboutpic {
@@ -465,9 +468,7 @@ h1 {
 }
 
 .our-team-squares {
-  padding: 200px;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding:  0 5%;
   border: 5px solid white;
 }
 
@@ -1020,6 +1021,16 @@ h1 {
 
   .mobile-show  {
     display: block;
+  }
+  html {
+    font-size: 14px;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+  }
+  .opener {
+    padding: 0;
   }
 }
 

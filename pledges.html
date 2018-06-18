@@ -53,8 +53,8 @@ title: pledge
       <h3 id="letter-{{ group.name | downcase }}">{{ group.name }}</h3>
       <div class="grid">
         {% for pledge in group.items %}
-          <div class="col-3">
-            {{ pledge.company_name }}
+          <div class="col-3_sm-6_xs-12">
+            <strong>{{ pledge.company_name }}</strong>
             <br />
             {{ pledge.description }}
           </div>
