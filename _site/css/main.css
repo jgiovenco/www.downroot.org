@@ -784,16 +784,31 @@ h1 {
   background-image: url(/img/reforestation1.jpg);
   background-position: center;
   background-size: cover;
+  filter: grayscale(100%);
+}
+
+.reforestation1:hover {
+  filter: grayscale(0);
 }
 
 .reforestation2 {
   background-image: url(/img/reforestation2.jpg);
   background-position: center;
   background-size: cover;
+  filter: grayscale(100%);
+  margin-bottom: 20px;
+}
+
+.reforestation2:hover {
+  filter: grayscale(0);
 }
 
 .reforestation-foursquare div {
-  padding: 20%;
+  padding: 5%;
+}
+
+.reforestation-foursquare h3 {
+  font-weight: bold;
 }
 
 .reforestation-title {
