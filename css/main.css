@@ -642,6 +642,11 @@ h1 {
 
 /* - - - - - - - - - - pledge archive navigation - - - - - - - - -- */
 
+.pledge-archive-navigation {
+  border: 2px solid black;
+  position:sticky;
+  /* top: 0; */
+}
 
 
 
@@ -774,10 +779,65 @@ h1 {
   opacity: 0.25;
 }
 
-/* - - - - - - - - - - - - - - - - - - - - - - Initiatives - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - Reforestation - - - - - - - - - - - - */
+.reforestation1 {
+  background-image: url(/img/reforestation1.jpg);
+  background-position: center;
+  background-size: cover;
+}
 
-.initiative1 {
-  background-image: url(/img/initiative1.png);
+.reforestation2 {
+  background-image: url(/img/reforestation2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.reforestation-foursquare div {
+  padding: 20%;
+}
+
+.reforestation-title {
+  display: block;
+  margin-top: 40px;
+}
+
+.reforestation-title img {
+  max-width: 30px;
+}
+
+.reforestation-title p {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.reforestation-donate {
+  background-image: url(/img/reforestation-donate.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 65vh;
+}
+
+.reforestation-donate h3 {
+  font-size: 3.5rem;
+}
+
+.reforestation-donate a {
+  padding: 5%;
+  font-size: 2rem;
+  text-decoration: none;
+  background-color: #539168;
+  color: white;
+}
+
+.reforestation-donate a:hover {
+  background-color: white;
+  color: #539168;
+  border: 2px solid #539168;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - Blog - - - - - - - - - - - - */
+.blog-image {
+  background-image: url(https://picsum.photos/200/300/?random);
   background-position: center;
   background-size: cover;
 }
