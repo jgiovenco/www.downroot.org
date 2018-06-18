@@ -145,7 +145,7 @@ h1 {
 .hero hr {
   border: none;
   border-bottom: 3px solid black;
-  width: 50%;
+  width: 30%;
   margin-bottom: 20px;
 }
 
@@ -260,14 +260,15 @@ h1 {
 
 .wwd-item a {
   text-decoration: none;
-  color: black;
-  border: 2px solid black;
+  background-color: #326A57;
+  color: white;
   padding: 10px;
 }
 
 .wwd-item a:hover {
-  color: white;
-  background-color: black;
+  color: #326A57;
+  background-color: white;
+  border: 2px solid #326A57;
 }
 
 /* - - - - - - - - - - - - DONATE - - - - - - - */
@@ -370,7 +371,7 @@ h1 {
 .scroller {
   position: absolute;
   left: 0;
-  bottom: 1rem;
+  bottom: 4rem;
   width: 100%;
   z-index: 1;
 }
@@ -441,6 +442,7 @@ h1 {
   background-image: url(/img/story-pic.jpg);
   background-position: center;
   background-size: cover;
+  min-height: 35vh;
 }
 /* - - - - - - - -  our team - - - - - - -*/
 
@@ -469,6 +471,12 @@ h1 {
   border: 5px solid white;
 }
 
+  .about-pic {
+    min-height: 35vh;
+  }
+
+}
+
 .our-team-squares hr {
   border: none;
   border-bottom: 2px solid black;
@@ -489,6 +497,7 @@ h1 {
   background-position: center;
   background-size: cover;
   filter: grayscale(100%);
+  min-height: 35vh;
 }
 
 .janelle-pic:hover {
@@ -500,6 +509,7 @@ h1 {
   background-position: center;
   background-size: cover;
   filter: grayscale(100%);
+  min-height: 35vh;
 }
 
 .alexander-pic:hover {
@@ -511,6 +521,7 @@ h1 {
   background-position: center;
   background-size: cover;
   filter: grayscale(100%);
+  min-height: 35vh;
 }
 
 .yoshi-pic:hover {
@@ -522,6 +533,7 @@ h1 {
   background-position: center;
   background-size: cover;
   filter: grayscale(100%);
+  min-height: 35vh;
 }
 
 .karen-pic:hover {
@@ -533,6 +545,7 @@ h1 {
   background-position: center;
   background-size: cover;
   filter: grayscale(100%);
+  min-height: 35vh;
 }
 
 .random-pic:hover {
@@ -544,6 +557,7 @@ h1 {
   background-position: center;
   background-size: cover;
   filter: grayscale(100%);
+  min-height: 35vh;
 }
 
 .random-pic2:hover {
@@ -824,6 +838,7 @@ h1 {
   background-size: cover;
   filter: grayscale(100%);
   margin-bottom: 20px;
+  min-height: 35vh;
 }
 
 .reforestation2:hover {
@@ -847,6 +862,7 @@ h1 {
   background-size: cover;
   filter: grayscale(100%);
   margin-bottom: 20px;
+  min-height: 35vh;
 }
 
 .reforestation4:hover {
@@ -1006,3 +1022,9 @@ h1 {
     display: block;
   }
 }
+
+@media (max-width: 768px) {
+
+  .our-team-squares {
+    padding: 0;
+  }
