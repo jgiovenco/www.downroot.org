@@ -411,21 +411,28 @@ h1 {
 }
 
 .story {
-  text-align: center;
   padding: 5%;
 }
 
+.story h2 {
+  margin-bottom: 0;
+}
+
+.story-pic {
+  background-image: url(/img/story-pic.jpg);
+  background-position: center;
+  background-size: cover;
+}
 /* - - - - - - - -  our team - - - - - - -*/
 
 .our-team-text {
   background-color: #245C38;
-  padding: 3%;
   color: white;
+  margin-bottom: 30px;
 }
 
 .our-team-text h2{
   font-size: 2.2rem;
-  margin-bottom: 0;
   margin-left: 10px;
 }
 
@@ -531,8 +538,8 @@ h1 {
 .about-rectangle img:hover {
   filter: grayscale(0%)
 }
-.about-text {
-
+.about-text h3 {
+  margin-bottom: 0;
 }
 
 /* - - - - - - contact - - - - - -  */
