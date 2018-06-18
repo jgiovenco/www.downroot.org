@@ -232,19 +232,33 @@ h1 {
   background-position: center;
   background-size: cover;
 }
+.donate-square {
+  background-color: white;
+  border-radius: 5px;
+  padding-bottom: 40px;
+}
+
+.donate p {
+  font-size: 2rem;
+  font-weight:600;
+  margin-bottom: 12px;
+}
 
 .donate a {
   text-align: center;
   text-decoration: none;
-  border: 3px solid black;
-  padding: 8%;
-  font-size: 2rem;
+  border: 2px solid black;
+  padding: 10px;;
+  font-size: 1.5rem;
   color: black;
+  border-radius: 2px;
+  background-color: white;
 }
 
 .donate a:hover {
-  background-color: black;
+  background-color: #10B7BF;
   color: white;
+  border: 3px solid white;
 }
 /* - - - - - - - - - - - - Blog - - - - - - - */
 .homeblog h3 {
@@ -429,6 +443,27 @@ h1 {
   max-width: 50px;
 }
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - pledges - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - pledge opener  - - - - - - - */
+.pledge-opener {
+  padding-top: 20px;
+}
+
+.pledge-opener img {
+  max-width: 40px;
+  margin: 0;
+}
+
+.pledge-opener h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.pledge-opener hr {
+  border: none;
+  border-bottom: 3px solid black;
+  width: 10%;
+  margin-bottom: 20px;
+}
 /* - - - - - - - - - - - pledge  - - - - - - - */
 
 .pledge-text {
@@ -456,7 +491,9 @@ h1 {
 }
 
 /* - - - - - - - - - - pledge stat - - - - - - - - -- */
-
+.pledge-stat {
+  margin-top:4%;
+}
 .stat-wrapper1 {
   border: 1px solid black;
 }
@@ -468,10 +505,16 @@ h1 {
 .
 
 .stats-pic {
-  background-image: url(/img/root-logo.png);
+  background-image: url(../img/root-logo.png);
   background-position: center;
   background-size: cover;
+  max-width: 50px;
 }
+
+/* - - - - - - - - - - pledge archive navigation - - - - - - - - -- */
+
+
+
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Get Involved - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* - - - - - - - - - - - - - - - - event title - - - - - - - - - - - - - */

@@ -1,23 +1,15 @@
 ---
 layout: default
+title: pledge
 ---
 
 <!-- - - - - - - - - - banner - - - - - - - - - - - -->
-
-<section class="grid-center-middle-noBottom banner">
-  <div class="col-12 center-align">
-    <h1> pledges </h1>
-  </div>
-
-  <div class="col-12 center-align">
-    <!-- insert search bar -->
-  </div>
-</section>
+{% include banner.html %}
 
 <!-- - - - - - - - - - the pledge text - - - - - - - - - - - -->
 <section class="grid-center-middle pledge-text">
   <div class="col-6 center-align">
-    <h2> the pledge </h2>
+    <h2> the downroot pledge </h2>
     <hr>
     <p> Every <span>downroot certified</span> business must pledge to minimize environmental effects whenever possible when making corporate decisions, to perform at least one environmental initiative (hands-on or fundraising) annually, and donate 1% of overall profit to issues caused by worldwide business activities. </p>
   </div>
@@ -45,6 +37,12 @@ layout: default
   </div>
   <div class="col-2">
   </div>
+</section>
+<!-- - - - - - - - - - - Pledge Opener - - - - - - - - - - - -->
+<section class="pledge-opener center-align">
+  <img src="../img/search.png">
+  <h2 class="center-align"> Search Pledged Companies </h2>
+  <hr>
 </section>
 
 <!-- - - - - - - - - - Pledge Archive - - - - - - - - - - - -->
@@ -74,3 +72,5 @@ layout: default
     {%endfor%}
   </div>
 </section>
+
+{% include instagram.html %}
