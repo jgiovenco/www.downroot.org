@@ -642,13 +642,18 @@ h1 {
 
 /* - - - - - - - - - - pledge archive navigation - - - - - - - - -- */
 
-.pledge-archive-navigation {
-  border: 2px solid black;
-  position:sticky;
-  /* top: 0; */
+.pledge-archive-navigation a {
+  text-decoration: none;
+  color: black;
 }
 
+.pledge-archive-navigation a:hover {
+  border-bottom: 2px solid black;
+}
 
+.archive {
+  padding: 5%;
+}
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Get Involved - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* - - - - - - - - - - - - - - - - event title - - - - - - - - - - - - - */
@@ -800,6 +805,29 @@ h1 {
 }
 
 .reforestation2:hover {
+  filter: grayscale(0);
+}
+
+.reforestation3 {
+  background-image: url(/img/initiative3.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+.reforestation3:hover {
+  filter: grayscale(0);
+}
+
+.reforestation4 {
+  background-image: url(/img/initiative4.png);
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%);
+  margin-bottom: 20px;
+}
+
+.reforestation4:hover {
   filter: grayscale(0);
 }
 
