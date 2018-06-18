@@ -45,6 +45,20 @@ function scrollToLetter(event) {
 
 }
 
+function showChapter(event){
+
+  var target = $(event.currentTarget),
+      chapter = target.attr('data-id');
+
+
+  $('.wwd-item').removeClass('active');
+
+    $('.wwd-item[data-id="'+chapter+'"]').addClass('active');
+      console.log(chapter);
+
+}
+
 // Bind events
 $('body').on('click', '.pledge-archive-navigation a', scrollToLetter);
 $('body').on('click', '.contactform-section-form-button', changeSelection);
+$('body').on('click', '.wwd-centerimg', showChapter);
