@@ -1,3 +1,13 @@
+$(document).ready(function(){
+
+  //Attach scroll to window
+  window.sr = ScrollReveal ();
+
+  // Attach ScrollReveal to the elements
+  sr.reveal('.show-me',{duration:2000});
+
+
+
 /*
 ** Change Selection
 */
@@ -65,3 +75,5 @@ function showChapter(event){
 $('body').on('click', '.pledge-archive-navigation a', scrollToLetter);
 $('body').on('click', '.contactform-section-form-button', changeSelection);
 $('body').on('click', '.wwd-centerimg', showChapter);
+
+});

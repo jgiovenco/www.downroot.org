@@ -153,16 +153,35 @@ h1 {
 }
 
 /* - - - - - - - - - - - - opener  - - - - - - - */
-.opener {
+.why-opener {
+  margin-bottom: 30px;
+}
+
+.why {
   font-family: 'Courier New', sans-serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.why h3 {
+  margin: 30px;
+}
+.opener {
+  font-size: 1rem;
   color: black;
   padding: 1%;
+  border-right: 1px solid black;
+  margin: 0;
+}
+
+.last-opener {
+  border: none;
 }
 /* - - - - - - - - - - - - Mission Statement - - - - - - - */
 .mission {
   text-align: center;
-  background-color: #1A1A1A;
+  background-color: #326A57;
   color: white;
   padding: 8%;
   font-size: 1.2rem;
@@ -193,17 +212,17 @@ h1 {
   font-size: 2rem;
 }
 .wwd1 {
-  background-color: #26A65B;
+  background-color: #b4eeb4;
   border: 2px solid white;
 }
 
 .wwd2 {
-  background-color: #1BBC9B;
+  background-color: #9bcd9b;
   border: 2px solid white;
 }
 
 .wwd3 {
-  background-color: #1BA39C;
+  background-color: #698b69;
   border: 2px solid white;
 }
 
@@ -248,27 +267,23 @@ h1 {
 
 /* - - - - - - - - - - - - DONATE - - - - - - - */
 .donate {
-  min-height: 50vh;
+  min-height: 60vh;
   background-image: url(../img/donate.jpg);
   background-position: center;
   background-size: cover;
-}
-.donate-square {
-  background-color: white;
-  border-radius: 5px;
-  padding-bottom: 40px;
 }
 
 .donate p {
   font-size: 2rem;
   font-weight:600;
   margin-bottom: 12px;
+  color: white;
 }
 
 .donate a {
   text-align: center;
   text-decoration: none;
-  border: 2px solid black;
+  border: 2px solid white;
   padding: 10px;;
   font-size: 1.2rem;
   color: black;
@@ -277,9 +292,9 @@ h1 {
 }
 
 .donate a:hover {
-  background-color: #10B7BF;
+  background-color: #326A57;
   color: white;
-  border: 3px solid white;
+  border: 2px solid white;
 }
 /* - - - - - - - - - - - - Blog - - - - - - - */
 .homeblog h3 {
@@ -756,4 +771,12 @@ h1 {
   height: 24px;
   margin-right: 1rem;
   opacity: 0.25;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - Initiatives - - - - - - - - - - - - */
+
+.initiative1 {
+  background-image: url(/img/initiative1.png);
+  background-position: center;
+  background-size: cover;
 }
