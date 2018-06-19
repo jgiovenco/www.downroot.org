@@ -221,18 +221,21 @@ section {
   background-color: #b4eeb4;
   border: 2px solid white;
   cursor: pointer;
+  padding: 5%;
 }
 
 .wwd2 {
   background-color: #9bcd9b;
   border: 2px solid white;
   cursor: pointer;
+  padding: 5%;
 }
 
 .wwd3 {
   background-color: #698b69;
   border: 2px solid white;
   cursor: pointer;
+  padding: 5%;
 }
 
 #wwd .wwd4 {
