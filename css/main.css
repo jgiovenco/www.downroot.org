@@ -614,6 +614,10 @@ section {
   margin-bottom: 0;
 }
 
+.pledge-opener p {
+  line-height: 0.2;
+}
+
 .pledge-opener hr {
   border: none;
   border-bottom: 3px solid black;
@@ -677,8 +681,11 @@ section {
   background-color: #326A57;
 }
 
-/* - - - - - - - - - - pledge archive navigation - - - - - - - - -- */
 
+/* - - - - - - - - - - pledge archive navigation - - - - - - - - -- */
+.pledge-archive-navigation {
+  background-color: white;
+}
 .pledge-archive-navigation a {
   text-decoration: none;
   color: black;
@@ -690,6 +697,15 @@ section {
 
 .archive {
   padding: 5%;
+}
+
+.pledge-links {
+  color: black;
+  text-decoration: none;
+}
+
+.pledge-links:hover {
+  font-weight: bold;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Get Involved - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */

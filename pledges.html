@@ -28,18 +28,20 @@ title: pledge
 <section class="pledge-opener center-align" id="pledge-archive">
   <img src="../img/search.png">
   <h2 class="center-align"> Search Pledged Companies </h2>
+  <p> Select a letter to be directed. </p>
+  <p>Click the companies to go to their website. </p>
   <hr>
 </section>
 
 <!-- - - - - - - - - - Pledge Archive Scroll to Top button - - - - - - - - - - - -->
 
 
-<a href="#pledge-archive"id="myBtn" title="Go to top">search</a>
+<a class="mobile-hide" href="#pledge-archive"id="myBtn" title="Go to top">search</a>
 
 
 <!-- - - - - - - - - - Pledge Archive - - - - - - - - - - - -->
-<section class="grid pledge-archive">
-  <div class="col-12 pledge-archive-navigation center-align">
+<section class="grid pledge-archive" data-sticky-container>
+  <div class="col-12 pledge-archive-navigation center-align stick-me" data-margin-top="20">
     {% assign alphabet = site.pledges | group_by_exp:"pledge", "pledge.company_name | slice: 0, 1" %}
     {% for group in alphabet %}
       <a href="#letter-{{ group.name | downcase }}" data-letter="{{ group.name | downcase }}">{{ group.name }}</a>
@@ -54,9 +56,8 @@ title: pledge
       <div class="grid">
         {% for pledge in group.items %}
           <div class="col-3_sm-6_xs-12">
-            <strong>{{ pledge.company_name }}</strong>
+            <a class="pledge-links" href="{{pledge.link}}">{{ pledge.company_name }}</strong>
             <br />
-            {{ pledge.description }}
           </div>
         {%endfor%}
       </div>

@@ -1,4 +1,7 @@
 $(document).ready(function(){
+
+var sticky = new Sticky('.stick-me');
+
 // - - - - - - - - - - - - - - - - - scroll reveal - - - - - - - - -  - - - -//
   //Attach scroll to window
   window.sr = ScrollReveal ();
